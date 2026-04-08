@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+backend/.venv/
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Next.js build artifacts
+.next/
+out/
+frontend/.next/
+frontend/out/
+
+# Environment files
+.env
+.env.*
+backend/.env
+frontend/.env.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Runtime storage / local data
+backend/storage/
+*.sqlite3
+
+# Large binary/model-like artifacts
+*.bin
+*.dll
+*.so
+*.dylib
+*.node
